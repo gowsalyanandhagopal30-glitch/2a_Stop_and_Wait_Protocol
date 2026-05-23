@@ -10,7 +10,7 @@ To write a python program to perform stop and wait protocol
 6. Stop the Program
 ## PROGRAM
 CLIENT:
-/*
+
 DEVELOPED BY:N.Gowsalya
 REGISTER NO:212225230085
 
@@ -29,14 +29,13 @@ while True:
     else:
         c.close()
         break
-*/
 
 SERVER:
 
 DEVELOPED BY:N.Gowsalya
 REGISTER NO:212225230085
 
-/*
+
 import socket
 s=socket.socket()
 s.connect(('localhost', 8001))
@@ -45,7 +44,6 @@ while True:
     s.send("Acknowledgement Recived from the server".encode())
 
 
-*/
 
 ## OUTPUT
 <img width="587" height="235" alt="Screenshot 2026-05-23 084252" src="https://github.com/user-attachments/assets/95a0d5ba-4dac-42c7-acd2-f3bd9baa383f" />
